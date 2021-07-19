@@ -4,3 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html,body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.15;
+    color: rgba(22, 28, 45, 0.7);
+}
