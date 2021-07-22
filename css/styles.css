@@ -163,6 +163,29 @@ header .modal-content {
  } */
  /* HEADER-KHAI */
 
+/* ABOUT-THAO */
+.about h6{
+    color:#FF6600;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: block;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.about h3{
+    color: black;
+    font-size: 40px;
+    line-height:50px;
+    font-weight: 550;
+}
+
+.about p{
+    font-size: 18px;
+    line-height: 28px;
+}
 
 
 
