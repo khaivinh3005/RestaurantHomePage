@@ -11,6 +11,160 @@ html,body {
     color: rgba(22, 28, 45, 0.7);
 }
 
+/* Header-KHAI */
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    color: white;
+}
+header .container-fluid {
+    position: relative;
+}
+
+header input {
+    padding: 10px 50px 10px 20px !important;
+    height: 45px !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+
+header a {
+    font-size: 5vh !important;
+    font-weight: 700;
+    color: #fbfdfb !important;
+}
+
+header .form-inline {
+    position: relative;
+}
+
+header .fa-search {
+    position: absolute;
+    top:31%;
+    right: 5px;
+}
+
+header .navbar-brand {
+    margin: 0 0 0 9vw;
+}
+
+header .header__title {
+    margin: 30vh 0 0 10vw;
+    width: 600px;
+}
+
+
+.header__title a {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.header__title h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.header__title p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.header__title a:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color:#ff6600 !important;
+    text-decoration: none;
+}
+
+header .modal-content {
+    height: 100vh;
+    background: rgb(6 3 0 / 77%);
+    position: relative;
+}
+
+.btn-secondary {
+    background: #ff6600;
+}
+
+.modal-body__content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10vh;
+   font-size: 3vh;
+   font-weight: 600;
+   line-height: 2em;
+}
+
+.modal-body__content p:hover {
+    color:#ff6600;
+}
+
+@media (max-width: 800px) { 
+    header .navbar-brand {
+        margin: 0 0 0 5vw;
+    }
+
+    .header__title h1 {
+        font-size: 4vh;
+        line-height: 5vh;
+    }
+
+
+    .modal-body .float-xs-right {
+        float: right;
+    }
+    header {
+        height: auto;
+        width: 100%;
+        font-size: 3vh;
+    }
+
+    .container-fluid form {
+        display: none;
+    }
+
+    .container-fluid .fa-moon {
+        display: none;
+    }
+
+    .modal-body button {
+        float:right;
+    }
+
+    header .modal-content {
+        height: 100%;
+        width: 100%;
+        background: rgb(6 3 0 / 77%);
+        position: relative;
+    }
+
+ }
+
+ /* @media (max-width: 600px) { 
+    header .header__title {
+        width: 400px;
+    }
+ } */
+ /* HEADER-KHAI */
+
+
+
 
  /* DEAL-PHUOC  */
 .deal__img{
