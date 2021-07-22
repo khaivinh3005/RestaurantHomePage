@@ -10,3 +10,86 @@ html,body {
     line-height: 1.15;
     color: rgba(22, 28, 45, 0.7);
 }
+
+
+ /* DEAL-PHUOC  */
+.deal__img{
+    background-image: url(../img/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ 
+    width: 100%;
+    min-height: 600px;
+ }
+ .deal__img::before{
+     content: "";
+     background:#100f1375;
+ 
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+ }
+ .deal__content{
+     background-color: #ff6600;
+     
+ }
+ .deal__content h4{
+     font-size: 20px;
+     color: white;
+     letter-spacing: 1px;
+     font-weight: 400;
+ }
+ .deal__content h2{
+     font-size: 38px;
+     font-weight: 600;
+     color: #232121;
+ }
+ .deal__content p{
+     color: #ffdfc9;
+     padding: 10px 0;
+     font-size: 18px;
+ }
+ .deal__title{
+     padding: 70px 60px ;
+ }
+ .deal__detail{
+     padding-top: 40px;
+ }
+ .deal__detail h5{
+     font-size: 22px;
+     padding-top: 25px;
+ }
+ 
+ .deal__detail i{
+     width: 70px;
+     height: 70px;
+     background-color: white;
+     text-align: center;
+     line-height: 70px;
+     font-size: 22px;
+     border-radius: 5px;
+     
+ }
+ .deal__detail i::before{
+     color: #ff6600;
+     transition: all 0.5s;
+ }
+ .deal__detail i:hover::before{
+     color: #ffc600;
+     transition: all 0.5s;
+ }
+ 
+ @media screen and (max-width:992px) {
+     .deal__img{
+         min-height: 200px;
+     }
+ }
+ @media screen and (max-width:992px) {
+     .deal__title{
+         padding: 40px 40px 0 40px;
+     }
+     
+ }
