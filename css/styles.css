@@ -218,6 +218,7 @@ header .modal-content {
      color: white;
      letter-spacing: 1px;
      font-weight: 400;
+     font-family: 'Pacifico', cursive;
  }
  .deal__content h2{
      font-size: 38px;
@@ -238,6 +239,8 @@ header .modal-content {
  .deal__detail h5{
      font-size: 22px;
      padding-top: 25px;
+     color: #232121;
+     font-weight: 700;
  }
  
  .deal__detail i{
@@ -266,7 +269,7 @@ header .modal-content {
  }
  @media screen and (max-width:992px) {
      .deal__title{
-         padding: 40px 40px 0 40px;
+         padding: 70px 40px 0 40px;
      }
      
  }
@@ -379,4 +382,122 @@ header .modal-content {
     color: #ffc600;
     font-weight: 600;
     opacity: 0.9;
+}
+
+
+/* DELICOUS & NUMBER - PHUOC  */
+.delicious{
+    background-image: linear-gradient(0,rgba(16, 15, 19, 0.659),rgba(17, 15, 19, 0.659)), url(../img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 486px;
+    text-align: center;
+    margin-top: 50px;
+}
+.delicious__content{
+    padding: 50px 0;
+}
+.delicious__content h1{
+    color: white;
+    padding: 30px 0;
+    font-weight: 600;
+}
+.delicious__content button{
+    width: 200px;
+    height: 58px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin: 0 10px ;
+}
+.button__left{
+    background-color: transparent;
+    border: solid 2px white;
+}
+.button__left:hover{
+    background-color: white;
+    color: #ff6600;
+}
+.button__right{
+    background-color: #ff6600;
+    border: none;
+}
+.button__right:hover{
+    color: #ffdfc9;
+}
+
+.number .number__content{
+position: relative;
+}
+.number .number__detail{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -70px;
+}
+.number__item{
+    background-color: white;
+    border-radius: 10px;
+    border: white 2px solid;
+    height: 254px; 
+    text-align: center;
+    transform: translateY(0);
+    transition: all 0.5s;
+
+}
+.number__item:hover{
+    transform: translateY(-10px);
+    border-bottom: rgba(128, 128, 128, 0.5) 2px solid;
+    transition: all 0.5s;
+}
+.number__item i{
+    height: 68px;
+    width: 68px;
+    font-size: 26px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    line-height: 68px;
+    margin: 20px 0;
+    color: white;
+}
+.number__item p{
+    font-size: 18px;
+}
+.number__item p:last-of-type{
+    color: #1e3d95b3;
+}
+.number__item .numscroller{
+    font-size: 2.6em;
+    font-weight: 600;
+    color: #232121;
+
+}
+
+@media screen and (min-width:736px) and (max-width:992px) {
+    .delicious{
+        min-height: 348px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:736px) {
+    .delicious{
+        min-height: 329px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:576px) {
+    .delicious{
+        min-height: 305px;
+    }
+}
+@media screen and (min-width:768px) {
+    .number .number__item{
+        margin: 0 15px;
+    }
+}
+@media screen and  (max-width:992px) {
+    .number .number__detail{
+        top: 65px;
+    }
+    .delicious__content{
+        padding: 30px 0;
+    }
 }
