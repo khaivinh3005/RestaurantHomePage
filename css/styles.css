@@ -12,155 +12,256 @@ html,body {
 }
 
 /* Header-KHAI */
+.container {
+    position: relative;
+}
 header {
-    height: 100vh;
+    background:
+    linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../img/banner1.jpeg);
+    height: 70vh;
     width: 100vw;
-    background-image:linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    object-fit: cover;
+    background-position: initial;
+    /* background-attachment: fixed; */
     color: white;
 }
-header .container-fluid {
+
+header .navbar > .form-inline {
     position: relative;
 }
 
-header input {
-    padding: 10px 50px 10px 20px !important;
-    height: 45px !important;
-    font-size: 16px !important;
-    border-radius: 6px !important;
+header .navbar > .form-inline > input {
+    padding: 10px 50px 10px 20px;
+    height: 45px;
 }
 
-header a {
-    font-size: 5vh !important;
-    font-weight: 700;
-    color: #fbfdfb !important;
-}
-
-header .form-inline {
-    position: relative;
-}
-
-header .fa-search {
+header .navbar > .form-inline .fa-search {
     position: absolute;
-    top:31%;
-    right: 5px;
+    top: 37%;
+    right: 15%;
+    color: gray;
+    font-size: 15px;
 }
 
 header .navbar-brand {
-    margin: 0 0 0 9vw;
-}
-
-header .header__title {
-    margin: 30vh 0 0 10vw;
-    width: 600px;
-}
-
-
-.header__title a {
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 12px 45px;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 2.1em !important;
     font-weight: 700;
-    transition: 0.3s ease-in;
+    color: #fff !important;
+}
+
+header .navbar-light .navbar-toggler {
+    text-align: center;
+    color: #fbfdfb;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+header nav .navbar-toggler {
+    font-size: 2em !important;
+}
+
+
+header .btn-close {
+    background: #ff6600;
+    color: white !important;
+    opacity: 1;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0 15px !important;
     border-radius: 6px;
-    margin-top: 50px;
+    border-color: #ff6600;
+    border: 0.7px solid rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
 }
 
-.header__title h1 {
-    font-size: 50px;
-    line-height: 60px;
-}
-
-.header__title p {
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.header__title a:hover {
-    background: #fff;
-    border: 2px solid #fff;
-    color:#ff6600 !important;
-    text-decoration: none;
+header .btn-close > span {
+   font-size: 22px !important;
+   font-weight: 600 !important;
+   /* padding: 2px 15px 8px !important; */
+   line-height: 40px;
 }
 
 header .modal-content {
     height: 100vh;
-    background: rgb(6 3 0 / 77%);
-    position: relative;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+
+header .modal-content .modal-header {
+    border-bottom: none;
 }
 
-.btn-secondary {
-    background: #ff6600;
+header .modal-body nav {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    color: #fff;
+    -webkit-transition: color 0.2s;
+    transition: color 0.5s;
+} 
+
+header .modal-body nav li:hover {
+    color: #ff6600;
 }
 
-.modal-body__content {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   margin-top: 10vh;
-   font-size: 3vh;
-   font-weight: 600;
-   line-height: 2em;
+header .modal-body nav {
+    margin-top: 100px;
 }
 
-.modal-body__content p:hover {
-    color:#ff6600;
+header .modal-body li {
+    list-style: none;
+    padding: 10px 0;
 }
 
-@media (max-width: 800px) { 
-    header .navbar-brand {
-        margin: 0 0 0 5vw;
+header .modal-dialog {
+    margin: 0;
+}
+
+header .mt-10 {
+    margin-top: 10%;
+}
+
+header .card {
+    border: 0;
+    background-color:transparent;
+    width: 60vw;
+}
+
+header .card .card-title {
+    font-size: 5vh;
+    font-weight: 700;
+    line-height: 6vh;
+    color: white;
+}
+
+header .card .card-icon {
+    padding: 13px 45px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+}
+
+header .card .card-icon:hover {
+    color: #ff6600;
+    background: white;
+}
+
+
+@media (min-width:801px) {
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 40vw;
     }
 
-    .header__title h1 {
+    header .card .card-title {
         font-size: 4vh;
+        font-weight: 700;
         line-height: 5vh;
+        color: white;
     }
+}
 
-
-    .modal-body .float-xs-right {
-        float: right;
-    }
+@media (min-width:602px) and (max-width:800px) {
     header {
-        height: auto;
+        min-height: 600px;
         width: 100%;
+    }
+
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 90vw;
+    }
+
+    header .navbar-brand {
+        font-size: 1.9em !important;
+
+        color: #fff !important;
+    }
+    
+    header nav .navbar-toggler {
+        font-size: 1.9em !important;
+    }
+    
+
+    header .form-inline {
+        display: none;
+    }
+    
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 85vw !important;
+    }
+
+    header .card .card-title {
         font-size: 3vh;
+        font-weight: 700;
+        line-height: 4vh;
+        color: white;
     }
+}
 
-    .container-fluid form {
-        display: none;
+@media (max-width: 693px) {
+
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 70vw;
     }
+}
 
-    .container-fluid .fa-moon {
-        display: none;
-    }
-
-    .modal-body button {
-        float:right;
-    }
-
-    header .modal-content {
-        height: 100%;
+@media (max-width:601px) {
+    header {
         width: 100%;
-        background: rgb(6 3 0 / 77%);
-        position: relative;
+        min-height: 600px;
     }
 
- }
-
- /* @media (max-width: 600px) { 
-    header .header__title {
-        width: 400px;
+    header .form-inline {
+        display: none;
     }
- } */
+
+    header .navbar-brand {
+        font-size: 1.8em !important;
+
+    }
+
+    header nav .navbar-toggler {
+        font-size: 1.8em !important;
+    }
+
+    header .modal-body nav {
+        font-size: 16px;
+        /* font-weight: 300; */
+    } 
+
+    header .mt-10 {
+        margin-top: 30%;
+    }
+
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 90vw;
+    }
+
+    header .card .card-title {
+        font-size: 3vh;
+        font-weight: 700;
+        line-height: 4vh;
+        color: white;
+    }
+
+    header .card .card-icon {
+        padding: 10px 20px;
+        border: 1px solid white;
+        color: white;
+        font-weight: 700;
+    }
+}
+
  /* HEADER-KHAI */
 
 /* ABOUT-THAO */

@@ -32,52 +32,67 @@
 <body>
 
     <!--Khai-->
-    <header>
-        <div class="container-fluid row">
-            <nav class="navbar navbar-light py-5 col-lg-12 col-xl-12">
+    <header> 
+        <div class="container">
+            <nav class="navbar navbar-expand-fluid navbar-light">
                 <a class="navbar-brand" href="#">Dinner</a>
-                <form class="form-inline ml-auto">
+                <form class="form-inline my-2 ml-auto">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <i class="fa fa-search mx-3 text-dark"></i>
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-moon"></i>
                 </form>
-                <i class="fa fa-moon mx-3"></i>
-                <button class="navbar-toggler btn bg-light btn-outline-light" type="button" data-toggle="modal"
-                    data-target="#exampleModal" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler text-light" type="button" data-toggle="modal" data-target="#exampleModal"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa fa-bars"></i></span>
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
                         <div class="modal-content">
-                            <div class="modal-body">
-                                <button type="button" class="btn btn-secondary float-xs-right  float-sm-right"
-                                    data-dismiss="modal">
-                                    <i class="fa fa-times"></i>
+                            <div class="modal-header">
+                                <button type="button" class="btn-close ml-auto" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
                                 </button>
-                                <div class="modal-body__content">
-                                    <p>Home</p>
-                                    <p>About</p>
-                                    <p>Services</p>
-                                    <p>blog</p>
-                                    <p>404</p>
-                                    <p>Landing Page</p>
-                                    <p>Contact</p>
-                                    <p>Shot Codes</p>
-                                    <p>Email</p>
-                                </div>
+                            </div>
+                            <div class="modal-body overlay overlay-scale open">
+                                <nav>
+                                    <ul class="text-center">
+                                        <li>Home</li>
+                                        <li>About</li>
+                                        <li>Services</li>
+                                        <li>Blog</li>
+                                        <li>404</li>
+                                        <li>Landing Page</li>
+                                        <li>Contact</li>
+                                        <li>Shot Codes</li>
+                                        <li>Email</li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
                     </div>
-                </div>
             </nav>
-            <div class="header__title">
+            <div class="card border-success mb-3 mt-10">
+                <div class="card-body text-success">
+                  <h5 class="card-title">The Only Thing We Love More Than Food Is You!</h5>
+                  <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-icon btn btn-white mt-3">
+                    Read More
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                </div>
+                </div>
+                
+              </div>
+            <!-- <div class="header__title">
                 <h1>The Only Thing We Love More Than Food Is You!</h1>
-                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa debitis sequi corrupti
-                    architecto ipsam consectetur quo doloribus quos sit dolores!</p>
-                <a href="#">Read More<i class="fa fa-angle-right my-5 ml-2"></i></a>
-            </div>
+                <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea ipsum sed consequuntur illum facere.</p>
+                <a href="#" class="btn btn-white mt-3">
+                    Read More
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div> -->
         </div>
     </header>
 
