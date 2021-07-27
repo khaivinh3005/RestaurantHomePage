@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Team</title>
 
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
     <!-- BS4 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -17,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <!-- font Thao -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -29,17 +32,17 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body id="body" class="col1">
 
     <!--Khai-->
-    <header> 
+    <header>
         <div class="container">
             <nav class="navbar navbar-expand-fluid navbar-light">
                 <a class="navbar-brand" href="#">Dinner</a>
                 <form class="form-inline my-2 ml-auto">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <i class="fa fa-search"></i>
-                    <i class="fa fa-moon"></i>
+                    <i id="moon" class="fa fa-moon"></i>
                 </form>
                 <button class="navbar-toggler text-light" type="button" data-toggle="modal" data-target="#exampleModal"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,17 +78,18 @@
             </nav>
             <div class="card border-success mb-3 mt-10">
                 <div class="card-body text-success">
-                  <h5 class="card-title">The Only Thing We Love More Than Food Is You!</h5>
-                  <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-icon btn btn-white mt-3">
-                    Read More
-                    <i class="fa fa-angle-right"></i>
-                </a>
+                    <h5 class="card-title">The Only Thing We Love More Than Food Is You!</h5>
+                    <p class="card-text text-light">Some quick example text to build on the card title and make up the
+                        bulk of the card's content.</p>
+                    <a href="#" class="card-icon btn btn-white mt-3">
+                        Read More
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                 </div>
-                </div>
-                
-              </div>
-            <!-- <div class="header__title">
+            </div>
+
+        </div>
+        <!-- <div class="header__title">
                 <h1>The Only Thing We Love More Than Food Is You!</h1>
                 <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea ipsum sed consequuntur illum facere.</p>
                 <a href="#" class="btn btn-white mt-3">
@@ -103,12 +107,12 @@
                 <div class="about__item col-lg-5">
                     <div>
                         <h6>About Us</h6>
-                        <h3 class="mb-4">
+                        <h3 id="color-w" class="mb-4 color-w">
                             We found our creative space that is open for you.
                         </h3>
                     </div>
                 </div>
-                <div class="col-lg-7 content-1-right pl-lg-5 mt-lg-0 mt-3">
+                <div class="col-lg-7 content-1-right pl-lg-5 mt-lg-0 mt-3 color-w">
                     <p class="">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
                         ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet
                         elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet. Lorem ipsum init
@@ -131,7 +135,7 @@
                 </div>
                 <div class="col-lg-6 col-12 deal__title">
                     <h4>More than 3000 Restaurants</h4>
-                    <h2>Book a table easly at the best price</h2>
+                    <h2 class="color-w">Book a table easly at the best price</h2>
                     <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
                         quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
                     <div class="row deal__detail ">
@@ -152,11 +156,11 @@
     </section>
 
     <!-- Khai -->
-    <section class="new">
+    <section id="body-grey" class="new col1">
         <div class="new__content container py-5">
             <div class="new__title text-center pt-5 pb-3">
                 <h3>What's New</h3>
-                <h1>Popular Categories</h1>
+                <h1 class="color-w">Popular Categories</h1>
             </div>
             <div class="new__list">
                 <div class="new__list--top row">
@@ -224,106 +228,106 @@
         <div class="container">
             <div class="row d-inline-flex ">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2 mt-1 ">
-                    <div class="menu__item d-flex flex-column border border--white">
+                    <div class="menu__item d-flex flex-column b-c">
                         <div class="menu__top d-flex">
                             <div class="icon ml-4 mt-4">
                                 <i class="fa fa-users"></i>
                             </div>
-                            <div class="detail">
+                            <div class="detail color-w">
                                 <p>01</p>
-                                <h4><a href="#">Soup</a></h4>
+                                <h4><a class="color-w" href="#">Soup</a></h4>
                             </div>
                         </div>
-                        <p class="m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
+                        <p class="m-4 color-w">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
                             nobis.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2 mt-1 ">
-                    <div class="menu__item d-flex flex-column border border--white">
+                    <div class="menu__item d-flex flex-column b-c">
                         <div class="menu__top d-flex">
                             <div class="icon ml-4 mt-4">
                                 <i class="fa fa-shield-alt"></i>
                             </div>
                             <div class="detail">
-                                <p>02</p>
-                                <h4><a href="#">Drinks</a></h4>
+                                <p class="color-w">02</p>
+                                <h4><a class="color-w" href="#">Drinks</a></h4>
                             </div>
                         </div>
-                        <p class="m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
+                        <p class="m-4 color-w">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
                             nobis.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2 mt-1 ">
-                    <div class="menu__item d-flex flex-column border border--white">
+                    <div class="menu__item d-flex flex-column b-c">
                         <div class="menu__top d-flex">
                             <div class="icon ml-4 mt-4">
                                 <i class="fa fa-thermometer-full"></i>
                             </div>
                             <div class="detail">
-                                <p>03</p>
-                                <h4><a href="#">Pizza</a></h4>
+                                <p class="color-w">03</p>
+                                <h4><a class="color-w" href="#">Pizza</a></h4>
                             </div>
                         </div>
-                        <p class="m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
+                        <p class="m-4 color-w">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
                             nobis.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2 mt-1 ">
-                    <div class="menu__item d-flex flex-column border border--white">
+                    <div class="menu__item d-flex flex-column b-c">
                         <div class="menu__top d-flex">
                             <div class="icon ml-4 mt-4">
                                 <i class="fa fa-american-sign-language-interpreting"></i>
                             </div>
                             <div class="detail">
-                                <p>04</p>
-                                <h4><a href="#">Breakfast</a></h4>
+                                <p class="color-w">04</p>
+                                <h4><a class="color-w" href="#">Breakfast</a></h4>
                             </div>
                         </div>
-                        <p class="m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
+                        <p class="m-4 color-w">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
                             nobis.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2 mt-1 ">
-                    <div class="menu__item d-flex flex-column border border--white">
+                    <div class="menu__item d-flex flex-column b-c">
                         <div class="menu__top d-flex">
                             <div class="icon ml-4 mt-4">
                                 <i class="fa fa-paint-brush"></i>
                             </div>
                             <div class="detail">
-                                <p>05</p>
-                                <h4><a href="#">Lunch</a></h4>
+                                <p class="color-w">05</p>
+                                <h4><a class="color-w" href="#">Lunch</a></h4>
                             </div>
                         </div>
-                        <p class="m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
+                        <p class="m-4 color-w">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
                             nobis.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2 mt-1 ">
-                    <div class="menu__item d-flex flex-column border border--white">
+                    <div class="menu__item d-flex flex-column b-c">
                         <div class="menu__top d-flex">
                             <div class="icon ml-4 mt-4">
                                 <i class="fa fa-eraser"></i>
                             </div>
                             <div class="detail">
-                                <p>06</p>
-                                <h4><a href="#">Dinner</a></h4>
+                                <p class="color-w">06</p>
+                                <h4><a class="color-w" href="#">Dinner</a></h4>
                             </div>
                         </div>
-                        <p class="m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
+                        <p class="m-4 color-w">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, atque
                             nobis.
                         </p>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </section>
-    
+
 
     <!--Phuoc-->
     <section class="delicious">
@@ -342,36 +346,65 @@
             <div class="row number__detail ">
                 <div class="col-md col-6 number__item">
                     <i class="fa fa-calculator"></i>
-                    <p class='numscroller' data-min='1' data-max='15100' data-delay='5' data-increment='10'></p>
-                    <p>Branches</p>
+                    <p class='numscroller color-w' data-min='1' data-max='15100' data-delay='5' data-increment='10'></p>
+                    <p class="color-w">Branches</p>
                 </div>
                 <div class="col-md col-6 number__item">
                     <i class="fa fa-utensils"></i>
-                    <p class='numscroller' data-min='1' data-max='19256' data-delay='5' data-increment='10'></p>
-                    <p>Food Items</p>
+                    <p class='numscroller color-w' data-min='1' data-max='19256' data-delay='5' data-increment='10'></p>
+                    <p class="color-w">Food Items</p>
                 </div>
                 <div class="col-md col-6 number__item">
                     <i class="fa fa-users"></i>
-                    <p class='numscroller' data-min='1' data-max='12100' data-delay='5' data-increment='10'></p>
-                    <p>Chefs</p>
+                    <p class='numscroller color-w' data-min='1' data-max='12100' data-delay='5' data-increment='10'></p>
+                    <p class="color-w">Chefs</p>
                 </div>
                 <div class="col-md col-6 number__item">
                     <i class="fa fa-smile"></i>
-                    <p class='numscroller' data-min='1' data-max='2560' data-delay='5' data-increment='10'></p>
-                    <p>Happy Customers</p>
+                    <p class='numscroller color-w' data-min='1' data-max='2560' data-delay='5' data-increment='10'></p>
+                    <p class="color-w">Happy Customers</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Khải -->
+    <section class="blog">
+        <div class="blog__content container px-1" id="blog">
+            <div class="blog__info">
+                <div class="blog__info--before"></div>
+                <a href="#blog" onclick="lightbox_open();">
+                    <span class="video-play-icon text-center play-view">
+                        <span class="fa fa-play" aria-hidden="true"></span>
+                    </span>
+                </a>
 
-    <section class="blog"></section>
-    <section class="slider"></section>
+                <div id="light">
+                    <div class="light-container container">
+                        <div class="VisaChipCardVideo">
+                            <!-- <iframe src="https://www.youtube.com/embed/rkoKjUayyS8" title="YouTube video player"
+                                height="350" width="800" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe> -->
+                            <iframe src="https://www.youtube.com/embed/rkoKjUayyS8"
+                                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+                                style="height:400px;width:80vw;border:none;overflow:hidden;"></iframe>
+                            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thảo -->
+    <section class="slider">
+    </section>
     <section class="contact"></section>
     <footer></footer>
 
 
-    <!-- JQUERY  -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -385,8 +418,53 @@
     <Script src="./js/numscroller-1.0.js"></Script>
 
 
-
     <script src="./js/main.js"></script>
+
+    <!-- JS video -->
+    <script>
+        window.document.onkeydown = function (e) {
+            if (!e) {
+                e = event;
+            }
+            if (e.keyCode == 27) {
+                lightbox_close();
+            }
+        }
+
+        function lightbox_open() {
+            var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+            window.scrollTo(0, 0);
+            document.getElementById('light').style.display = 'block';
+            document.getElementById('fade').style.display = 'block';
+            lightBoxVideo.play();
+        }
+
+        function lightbox_close() {
+            var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+            document.getElementById('light').style.display = 'none';
+            document.getElementById('fade').style.display = 'none';
+            lightBoxVideo.pause();
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: "auto",
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
+        });
+
+    </script>
+
+
 </body>
 
 </html>
