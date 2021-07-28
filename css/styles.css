@@ -601,7 +601,7 @@ header .btn .fa {
 
 
 
-/* DELICOUS & NUMBER - PHUOC  */
+/* DELICOUS - PHUOC  */
 .delicious{
     background-image: linear-gradient(0,rgba(16, 15, 19, 0.659),rgba(17, 15, 19, 0.659)), url(../img/banner2.jpg);
     background-size: cover;
@@ -642,6 +642,7 @@ header .btn .fa {
     color: #ffdfc9;
 }
 
+/* NUMBER - PHUOC */
 .number .number__content{
 position: relative;
 }
@@ -682,7 +683,7 @@ position: relative;
     font-size: 18px;
 }
 .number__item p:last-of-type{
-    color: #1e3d95b3;
+    color: #161c2db3;
 }
 .number__item .numscroller{
     font-size: 2.6em;
@@ -793,6 +794,183 @@ box-shadow: rgba(163, 177, 198, 0.5) 6px 6px 12px 0px, rgb(255, 255, 255) -6px -
 border-radius: 200px;
 -webkit-border-radius: 200px;
 }
+
+
+/* CONTACT - PHUOC */
+.contact{
+    background-color: black;
+}
+.contact__content{
+   padding: 50px 0;
+}
+.contact__detail a{
+    text-decoration: none;
+}
+.contact__detail ul{
+    list-style: none;
+}
+.contact__detail h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.contact__detail h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.5s;
+}
+.contact__detail h3:hover{
+    color: #FF6600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact__detail p{
+    font-size: 17px;
+    color: #a5a2a1;
+    padding: 10px 0;
+}
+.contact__detail a{
+    font-size: 17px;
+    color: #a5a2a1;
+    transition: all 0.5s;
+}
+.contact__detail a:hover{
+    color: #FF6600;
+    transition: all 0.5s;
+}
+.contact__detail li{
+    padding: 7px 0;
+}
+.contact__detail i{
+    width: 36px;
+    height: 36px;
+    color: #ff6600;
+    background-color: white;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.contact__detail i:hover{
+    color: white;
+    background-color: #FF6600;
+    transition: all 0.5s;
+}
+.contact__detail input{
+    padding: 14px 20px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 2px transparent;
+    transition: all 0.5s;
+}
+.contact__detail input:focus{
+    outline: none;
+    border-color: red;
+    transition: all 0.5s;
+}
+.contact__detail button{
+    width: 100%;
+    padding: 14px 45px;
+    background-color: #FF6600;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: solid 2px transparent;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+.contact__detail button:hover{
+    color: #a5a2a1;
+    transition: all 0.5s;
+}
+
+@media screen and (min-width:500px) and (max-width:576px) {
+    .contact__content{
+        padding: 40px 15px;
+    }
+    .contact__detail{
+    margin-top: 30px;
+    }
+    .contact__icon{
+     padding: 0 125px;
+     margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .contact__detail{
+        margin-top: 25px;
+    }
+    .contact__content{
+    padding: 30px 20px;
+    }
+    .contact__icon{
+        padding: 0 35px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .contact__icon{
+        padding: 0 70px;
+    }
+}
+/* END - CONTACT  */
+
+/* FOOTER - PHUOC */
+footer{
+    background-color: black;
+    border-top: solid 1px #ffffff0d;
+    padding-top: 20px;
+}
+.footer__content ul{
+    list-style: none;
+}
+.footer__content a{
+    text-decoration: none;
+}
+.footer__content li{
+    display: inline;
+}
+.footer__left li{
+color: #ddd;
+}
+.footer__left a{
+    color: #FF6600;
+    transition: all 0.5s;
+}
+.footer__left a:hover{
+    color: #ddd;
+    transition: all 0.5s;
+}
+.footer__right{
+    text-align: right;
+}
+.footer__right a{
+    color: #a5a2a1;
+    transition: all 0.5s;
+    margin-left: 30px;
+}
+.footer__right a:hover{
+    color: #FF6600;
+    transition: all 0.5s;
+}
+@media screen and (min-width:500px) and (max-width:992px) {
+    .footer__left{
+        text-align: center;
+    }
+    .footer__right{
+        text-align: left;
+    }
+}
+/* END - FOOTER  */
+
+
+
+
 
 @keyframes ripple {
     0% {
