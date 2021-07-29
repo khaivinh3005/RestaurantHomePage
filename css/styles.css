@@ -598,7 +598,9 @@ header .btn .fa {
 .menu .border{
     border-radius: 10px;
 }
-
+.menu__item{
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+  }
 
 
 /* DELICOUS & NUMBER - PHUOC  */
@@ -1052,4 +1054,82 @@ border-radius: 200px;
   }
 /* End Blog */
 
+/*POST THẢO */
+
+.post h6{
+    color:#FF6600;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: block;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.post h3{
+    color: black;
+    font-size: 40px;
+    line-height:50px;
+    font-weight: 550;
+}
+
+.post p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.post .card-header .post-pos {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+.post .card-header a.receipe {
+    background: #ff6600;
+    color: #fff;
+    padding: 5px 22px;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+    letter-spacing: .05em;
+}
+
+.post .meta-info {
+    color: white;
+   
+}
+
+.post .blog-desc{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+.post .p-meta-info img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.post .img-name,.post .read{
+    font-weight: 700;
+    color:black;
+    letter-spacing: .02em;
+}
+.post .p-footer {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    border: none;
+}
 
