@@ -50,7 +50,7 @@ header .navbar > .form-inline > input {
 header .navbar > .form-inline .fa-search {
     position: absolute;
     top: 36%;
-    right: 25%;
+    right: 10%;
     color: rgba(22, 28, 45, 0.7);
     font-size: 15px;
     cursor: pointer;
@@ -224,6 +224,8 @@ header .card .card-icon:hover {
     }
 }
 
+
+
 @media (max-width:601px) {
     header {
         width: 100%;
@@ -270,6 +272,12 @@ header .card .card-icon:hover {
         border: 1px solid white;
         color: white;
         font-weight: 700;
+    }
+}
+
+@media (max-width: 800px) {
+    header .btn {
+        margin-left: auto;
     }
 }
 
