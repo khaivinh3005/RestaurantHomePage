@@ -1325,6 +1325,11 @@ color: #ddd;
     line-height: 28px;
     font-weight: 300;
 }
+
+.post .card-header {
+    border-radius: 10px;
+}
+
 .post .card-header .post-pos {
     position: absolute;
     bottom: 10px;
