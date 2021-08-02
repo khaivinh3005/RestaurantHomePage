@@ -1469,5 +1469,15 @@ color: #ddd;
         margin: 10px;
     }
 
+    .slider .testimonial > p {
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: bread-word;
+    }
+
     
 }
