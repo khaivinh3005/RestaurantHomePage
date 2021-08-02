@@ -293,6 +293,12 @@ header .card .card-icon:hover {
     }
 }
 
+@media (max-width: 320px) {
+    header {
+        min-height: 65vh;
+    }
+}
+
 header .btn .fa {
     color: white;
 }
