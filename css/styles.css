@@ -222,6 +222,10 @@ header .card .card-icon:hover {
         background-color:transparent;
         width: 70vw;
     }
+
+    .blog__info {
+        margin-top: 60px;
+    }
 }
 
 
@@ -318,7 +322,8 @@ header .btn .fa {
 .dark .menu,
 .dark .number__item,
 .dark input,
-.dark .blog
+.dark .blog,
+.dark .slider .people-info
 {
     /* background-color: #282828 !important; */
     background-color: #232220 !important;
@@ -332,7 +337,10 @@ header .btn .fa {
 .dark .menu__top h4 > .color-w,
 .dark .card-body,
 .dark .card-body a,
-.dark .post__header h3 
+.dark .post__header h3 ,
+.dark .slider,
+.dark .slider h3,
+.dark .slider q
  {
     color:white !important;
 }
@@ -1447,9 +1455,19 @@ color: #ddd;
     background: #FF6600;
 }
 
-=======
 .p-footer .img-name {
     margin-left: 10px;
     
 }
 
+@media (max-width:499px) {
+    .contact .contact__icon {
+        text-align: center;
+    }
+
+    .contact .contact__icon i {
+        margin: 10px;
+    }
+
+    
+}
