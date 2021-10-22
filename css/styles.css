@@ -15,8 +15,6 @@ html,body {
     background-color: white;
 }
 
-
-/* Header-KHAI */
 .container {
     position: relative;
 }
@@ -379,13 +377,6 @@ header .btn .fa {
     border-radius: 10px;
   }
 
-  /* THEME NAVIGATE */
-
- /*END HEADER-KHAI */
-
-
-
-/* ABOUT-THAO */
 .about h6{
     color:#FF6600;
     font-weight: 400;
@@ -409,10 +400,6 @@ header .btn .fa {
     line-height: 28px;
 }
 
-/* END ABOUT-THAO */
-
-
- /* DEAL-PHUOC  */
 .deal__img{
     background-image: url(../img/banner3.jpg);
     background-size: cover;
@@ -496,9 +483,7 @@ header .btn .fa {
      }
      
  }
-  /*END DEAL-PHUOC  */
 
- /* NEW-KHẢI */
  .new {
      background: #f7f7f7;
  }
@@ -631,10 +616,7 @@ header .btn .fa {
     font-weight: 600;
     opacity: 0.9;
 }
-/*END NEW-KHẢI */
 
-
-/* MENU-THAO */
 .icon{
     color: #FF6600;
     width: 70px;
@@ -672,10 +654,6 @@ header .btn .fa {
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
   }
 
-/*END MENU-THAO */
-
-
-/* DELICOUS - PHUOC  */
 .delicious{
     background-image: linear-gradient(0,rgba(16, 15, 19, 0.659),rgba(17, 15, 19, 0.659)), url(../img/banner2.jpg);
     background-size: cover;
@@ -794,9 +772,6 @@ position: relative;
         padding: 30px 0;
     }
 }
-/*END NUMBER - PHUOC */
-
-/* Blog-Khải */
 
 .blog {
     margin-top: 20vh;
@@ -902,10 +877,6 @@ border-radius: 200px;
     }
 }
 
-/* END BLOG-KHẢI */
-
-
-/* CONTACT - PHUOC */
 .contact{
     background-color: black;
 }
@@ -1035,9 +1006,7 @@ border-radius: 200px;
         padding: 0 70px;
     }
 }
-/* END - CONTACT  */
 
-/*POST THẢO */
 .post a{
     text-decoration: none;
 }
@@ -1131,9 +1100,6 @@ border-radius: 200px;
     color: #ff6600 !important;
 }
 
-/*END POST THẢO */
-
-/* SLIDER - THẢO */
 
 .slider h6{
     color:#FF6600;
@@ -1226,10 +1192,6 @@ border-radius: 200px;
 
 }
 
-/* End SLIDER - THẢO */
-
-
-/* FOOTER - PHUOC */
 footer{
     background-color: black;
     border-top: solid 1px #ffffff0d;
@@ -1281,10 +1243,7 @@ color: #ddd;
       margin-left: 10px;
   }
 }
-/* END - FOOTER  */
 
-
-  /* BACK TO TOP */
 
 .backToTop{
     width: 100%;
@@ -1295,26 +1254,8 @@ color: #ddd;
     font-size: 5vh;
     border-radius: 50%;
     color: white;
-    /* background-size: 200%;
-    background: linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
-    display: block;
-    font-size: 3rem;
-    color: #FF6600;
-    position: fixed;
-    right:10px;
-    bottom:50px;
-    border-radius: 50%;
-    /* Để tạo hiệu ứng ẩn hiện từ từ
-    => opacity dùng được với transition */
     opacity:0.7;
-    /* hidden, none giá trị chữ không dùng được với transition */
-    /* visibility: ngăn tác động key press từ người */
     visibility: hidden;
-    /* 
-    Làm mất kích thước của thẻ bị ẩn
-    => giúp không chiếm nội dung
-    display: none; 
-    */
 }
 
 .backToTopL:hover {
@@ -1362,7 +1303,6 @@ color: #ddd;
       width: 90px;
       background-color: #0D1326;
       padding: 10px 5px 10px;
-      /* padding: 70px 5px 40px; */
       border-top-left-radius: 9px;
       border-bottom-left-radius: 9px;
       color: white;
@@ -1371,7 +1311,6 @@ color: #ddd;
       text-align: center;
       justify-content:space-around;
       font-weight: 300;
-      /* align-items: center; */
   }
 
   .cd-box i
@@ -1409,11 +1348,7 @@ color: #ddd;
   .cd-box i:first-of-type:hover {
       opacity: .5;
   }
-/* End BACKTOTOP */
 
-
-
-/* Theme Light-dark */
 #switchButton #sun {
     display: none;
 }
@@ -1437,7 +1372,6 @@ color: #ddd;
 .dark .post .card,
 .dark .contact__icon i
  {
-    /* background-color: #232220 !important; */
     background-color: #282828 !important;
 }
 
@@ -1448,7 +1382,6 @@ color: #ddd;
 .dark .blog,
 .dark .slider .people-info
 {
-    /* background-color: #282828 !important; */
     background-color: #232220 !important;
     border: none;
 }
@@ -1474,7 +1407,6 @@ color: #ddd;
 }
 
 .dark .menu__item .color-w {
-    /* color: gray !important; */
     color: #c2d0da !important;
     font-family: 'Quicksand', sans-serif;
 }
